@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="X[2] <= 0.5\nentropy = 1.585\nsamples = 120\nvalue = [40, 40, 40]\nclass = 1", fillcolor="#ffffff"] ;
+1 [label="entropy = 0.503\nsamples = 45\nvalue = [40, 5, 0]\nclass = 1", fillcolor="#e89152"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="entropy = 0.997\nsamples = 75\nvalue = [0, 35, 40]\nclass = 3", fillcolor="#efe6fc"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
